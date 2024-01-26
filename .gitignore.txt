@@ -1,0 +1,18 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the SQLite database file
+db.sqlite3
+
+# Ignore environment variables file
+.env
+
+# Ignore static and media files (customize if necessary)
+/static/
+/media/
+
+# Ignore local development settings
+local_settings.py

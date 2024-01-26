@@ -1,0 +1,10 @@
+{% extends "blog/base.html"%}
+{% block content %}
+    {% for post in posts %}
+        <h1>{{ post.name }}</h1>
+        <p>{{ post.school }}</p> 
+        <p>{{ post.college }}</p>
+        <p>year of birth is {{ post.dob }}</p>
+    {% endfor %}
+{% endblock content %}
+
